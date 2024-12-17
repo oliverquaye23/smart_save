@@ -5,8 +5,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Mont: ["Montserrat", "sans-serif"],
+        Mono: ["Roboto Mono", "monospace"],
+      },
+      colors: {
+        blu: '#0070ff', 
+      },
+    },
   },
   plugins: [],
-}
-
+};
